@@ -1,4 +1,4 @@
-import{d as u,M as f,P as x,e as j,f as p}from"./index-48d51799.js";import{B as y,P as _,S as b}from"./button.stories-3a7fe8f1.js";import{u as d}from"./index-31a65cb4.js";import"./iframe-2491db3e.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-725317a4.js";import"./doctrine-46cf56bc.js";import"./index-356e4a49.js";import"./vue.esm-bundler-4fc358d6.js";import"./_plugin-vue_export-helper-c27b6911.js";var l={exports:{}},s={};/**
+import{d as u,M as f,P as x,e as j,f as p}from"./index-38bbd17e.js";import{B as y,P as _,S as b}from"./button.stories-3a7fe8f1.js";import{u as d}from"./index-1d8fd2e1.js";import"./iframe-d5e38446.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-725317a4.js";import"./doctrine-46cf56bc.js";import"./index-356e4a49.js";import"./vue.esm-bundler-4fc358d6.js";import"./_plugin-vue_export-helper-c27b6911.js";var l={exports:{}},s={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *
@@ -22,4 +22,4 @@ import{d as u,M as f,P as x,e as j,f as p}from"./index-48d51799.js";import{B as 
 `,r.jsx(e.p,{children:"A button can be of secondary importance."}),`
 `,r.jsx(p,{of:b}),`
 `,r.jsx(e.pre,{children:r.jsx(e.code,{})})]})}function A(t={}){const{wrapper:e}=Object.assign({},d(),t.components);return e?r.jsx(e,Object.assign({},t,{children:r.jsx(m,t)})):m(t)}export{A as default};
-//# sourceMappingURL=button-43674ce4.js.map
+//# sourceMappingURL=button-6a99400c.js.map
