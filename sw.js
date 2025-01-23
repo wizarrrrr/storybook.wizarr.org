@@ -1,5 +1,5 @@
 try {
-  self["workbox:core:7.0.0"] && _();
+  self["workbox:core:7.2.0"] && _();
 } catch {
 }
 const x = (a, ...e) => {
@@ -21,7 +21,7 @@ class l extends Error {
   }
 }
 try {
-  self["workbox:routing:7.0.0"] && _();
+  self["workbox:routing:7.2.0"] && _();
 } catch {
 }
 const T = "GET", R = (a) => a && typeof a == "object" ? a : { handle: a };
@@ -350,7 +350,7 @@ function P(a, e) {
   return a.waitUntil(t), t;
 }
 try {
-  self["workbox:precaching:7.0.0"] && _();
+  self["workbox:precaching:7.2.0"] && _();
 } catch {
 }
 const A = "__WB_REVISION__";
@@ -462,7 +462,7 @@ function Q(a) {
   return new Promise((e) => setTimeout(e, a));
 }
 try {
-  self["workbox:strategies:7.0.0"] && _();
+  self["workbox:strategies:7.2.0"] && _();
 } catch {
 }
 function m(a) {
@@ -562,8 +562,8 @@ class z {
    * defined on the strategy object.
    *
    * The following plugin lifecycle methods are invoked when using this method:
-   * - cacheKeyWillByUsed()
-   * - cachedResponseWillByUsed()
+   * - cacheKeyWillBeUsed()
+   * - cachedResponseWillBeUsed()
    *
    * @param {Request|string} key The Request or URL to use as the cache key.
    * @return {Promise<Response|undefined>} A matching response, if found.
@@ -589,7 +589,7 @@ class z {
    * the strategy object.
    *
    * The following plugin lifecycle methods are invoked when using this method:
-   * - cacheKeyWillByUsed()
+   * - cacheKeyWillBeUsed()
    * - cacheWillUpdate()
    * - cacheDidUpdate()
    *
@@ -1278,7 +1278,7 @@ function oe() {
   self.addEventListener("activate", () => self.clients.claim());
 }
 {
-  ie([{"revision":null,"url":"assets/_commonjsHelpers-725317a4.js"},{"revision":null,"url":"assets/_plugin-vue_export-helper-c27b6911.js"},{"revision":null,"url":"assets/button-6a99400c.js"},{"revision":null,"url":"assets/button.stories-3a7fe8f1.js"},{"revision":null,"url":"assets/chunk-UXHY756F-e3110c95.js"},{"revision":null,"url":"assets/Color-6VNJS4EI-22b46221.js"},{"revision":null,"url":"assets/config-cb29a64b.js"},{"revision":null,"url":"assets/DocsRenderer-NNNQARDV-1fa2cc0b.js"},{"revision":null,"url":"assets/doctrine-46cf56bc.js"},{"revision":null,"url":"assets/formatter-SWP5E3XI-0a229e5a.js"},{"revision":null,"url":"assets/formkit.stories-1f7bee14.js"},{"revision":null,"url":"assets/iframe-d5e38446.js"},{"revision":null,"url":"assets/index-1d8fd2e1.js"},{"revision":null,"url":"assets/index-356e4a49.js"},{"revision":null,"url":"assets/index-38bbd17e.js"},{"revision":null,"url":"assets/index-dd80b220.js"},{"revision":null,"url":"assets/index-f2492b30.js"},{"revision":null,"url":"assets/preview-108c1c3c.js"},{"revision":null,"url":"assets/preview-11f46785.css"},{"revision":null,"url":"assets/preview-2059b184.js"},{"revision":null,"url":"assets/preview-4d88a76d.js"},{"revision":null,"url":"assets/preview-5c6325c3.js"},{"revision":null,"url":"assets/preview-b3c37142.js"},{"revision":null,"url":"assets/preview-b8d6c68d.js"},{"revision":null,"url":"assets/preview-bed967c6.js"},{"revision":null,"url":"assets/preview-dbe7a46f.js"},{"revision":null,"url":"assets/syntaxhighlighter-NMPM6SWI-8f27c8fe.js"},{"revision":null,"url":"assets/text.stories-4acea074.js"},{"revision":null,"url":"assets/vue.esm-bundler-4fc358d6.js"},{"revision":null,"url":"assets/WithTooltip-4HIR6TLV-513fc22c.js"},{"revision":"1729e2f812417b0ac566ea0903a1a9a3","url":"iframe.html"},{"revision":"9588b88527637a6793c7c27e98fd1690","url":"index.html"},{"revision":"1872c500de691dce40960bb85481de07","url":"registerSW.js"},{"revision":"5362da15a9b190bd6a2594739cc35ac6","url":"sb-addons/apps-wizarr-frontend-storybook-8/manager-bundle.js"},{"revision":"aafe7d208c439ae4b75180cd494ef442","url":"sb-addons/essentials-actions-1/manager-bundle.js"},{"revision":"f93abbfbd674a1c31fe5bca1bf616cda","url":"sb-addons/essentials-backgrounds-2/manager-bundle.js"},{"revision":"3f16f6e845dd7ee097b828b2d46a6313","url":"sb-addons/essentials-controls-0/manager-bundle.js"},{"revision":"776feb2e0947ad4da60ce8e0d38380b0","url":"sb-addons/essentials-measure-5/manager-bundle.js"},{"revision":"3a0c88d6078dad8c4ef01aa30a9c0a54","url":"sb-addons/essentials-outline-6/manager-bundle.js"},{"revision":"a259577c0cdb553f8d14df33bb8c1445","url":"sb-addons/essentials-toolbars-4/manager-bundle.js"},{"revision":"5283728ae4a31f8b4a5d28255b7d688a","url":"sb-addons/essentials-viewport-3/manager-bundle.js"},{"revision":"762d802620f2ca73f8160c8bf9a7b279","url":"sb-addons/interactions-7/manager-bundle.js"},{"revision":"59f84fe6abac40231f124ea1797925e0","url":"sb-common-assets/fonts.css"},{"revision":"2550ca16fdc7a70627164ccb5fe227ea","url":"sb-manager/chunk-DAJ4OSDJ.js"},{"revision":"942b591b088c7ec85f49cb3f8f64c1e3","url":"sb-manager/chunk-FWZ33S65.js"},{"revision":"1c986e08cb6c81de85d17266e2ce8763","url":"sb-manager/chunk-NFZCBIX3.js"},{"revision":"02c4afa444d404463114af83fee65d42","url":"sb-manager/chunk-SZNM6KS3.js"},{"revision":"489cf7704c659334445e89b769d27a71","url":"sb-manager/chunk-ZEU7PDD3.js"},{"revision":"2b95b54a500a39799f602e52c22d1844","url":"sb-manager/formatter-SWP5E3XI-7BGIK6BL.js"},{"revision":"45899ed5308b13593148c27c9cd46d72","url":"sb-manager/globals.js"},{"revision":"9d98c78cc848c7b2737fdf855aae7de6","url":"sb-manager/index.js"},{"revision":"1ccb5a001ee13e39e641bae3645362f9","url":"sb-manager/runtime.js"},{"revision":"3f85347d7906fabca5a566760366cb17","url":"sb-manager/syntaxhighlighter-NMPM6SWI-GZTSOZ5L.js"},{"revision":"39756d650184fadc0107a559b6d44e40","url":"sb-manager/WithTooltip-4HIR6TLV-YPPZ2DMB.js"},{"revision":"ece7ba5b5e331cef1e905addb7063ed0","url":"sb-preview/globals.js"},{"revision":"a71ffed3897a4f471f70b3c32972a381","url":"sb-preview/runtime.js"},{"revision":"318cf1a9376dd7718a2fef348c27507c","url":"favicon.ico"},{"revision":"9db6a1f574a79e13b95912d531ba7316","url":"pwa-192x192.png"},{"revision":"2b0cd7628a266d5f6199de7e5b99bedf","url":"pwa-512x512.png"},{"revision":"bee402b5a5331c8d156c3e12533cce2f","url":"manifest.webmanifest"}]), ne();
+  ie([{"revision":null,"url":"assets/_commonjsHelpers-725317a4.js"},{"revision":null,"url":"assets/_plugin-vue_export-helper-c27b6911.js"},{"revision":null,"url":"assets/button-771e6f51.js"},{"revision":null,"url":"assets/button.stories-848df72d.js"},{"revision":null,"url":"assets/chunk-UXHY756F-ad6c742d.js"},{"revision":null,"url":"assets/Color-6VNJS4EI-3ce6fbd0.js"},{"revision":null,"url":"assets/DocsRenderer-NNNQARDV-f1beb150.js"},{"revision":null,"url":"assets/entry-preview-aeb5f63c.js"},{"revision":null,"url":"assets/entry-preview-docs-ed9df398.js"},{"revision":null,"url":"assets/formatter-SWP5E3XI-1e12994b.js"},{"revision":null,"url":"assets/formkit.stories-e5be52c8.js"},{"revision":null,"url":"assets/iframe-f218603d.js"},{"revision":null,"url":"assets/index-27e7a3d9.js"},{"revision":null,"url":"assets/index-2f76efde.js"},{"revision":null,"url":"assets/index-356e4a49.js"},{"revision":null,"url":"assets/index-38ad35d1.js"},{"revision":null,"url":"assets/index-a6f743cd.js"},{"revision":null,"url":"assets/index-fd03520d.js"},{"revision":null,"url":"assets/preview-0ef86afd.js"},{"revision":null,"url":"assets/preview-30b54f76.js"},{"revision":null,"url":"assets/preview-3cb258f3.css"},{"revision":null,"url":"assets/preview-5706e6d5.js"},{"revision":null,"url":"assets/preview-919f3830.js"},{"revision":null,"url":"assets/preview-c56bf6ac.js"},{"revision":null,"url":"assets/preview-c82afb13.js"},{"revision":null,"url":"assets/preview-d01b88e8.js"},{"revision":null,"url":"assets/preview-da31036b.js"},{"revision":null,"url":"assets/syntaxhighlighter-MJWPISIS-f3f425d4.js"},{"revision":null,"url":"assets/text.stories-6daf2375.js"},{"revision":null,"url":"assets/vue.esm-bundler-cf0c3429.js"},{"revision":null,"url":"assets/WithTooltip-V3YHNWJZ-9133e15b.js"},{"revision":"ac44bf6dfcc55817eaec30fd3fdf869f","url":"iframe.html"},{"revision":"29b8b4702ce134e79326cd8850761023","url":"index.html"},{"revision":"1872c500de691dce40960bb85481de07","url":"registerSW.js"},{"revision":"95d9ede76c6bb0b2e9acacbe94005391","url":"sb-addons/apps-wizarr-frontend-storybook-8/manager-bundle.js"},{"revision":"dc7b12f811459cb1695824c5824ece6b","url":"sb-addons/essentials-actions-1/manager-bundle.js"},{"revision":"3c9aaddf165d5e8fad45e4056ea665a6","url":"sb-addons/essentials-backgrounds-2/manager-bundle.js"},{"revision":"86096e3023a105c83f049fa02cdd8768","url":"sb-addons/essentials-controls-0/manager-bundle.js"},{"revision":"d14ab67c75ab9e246b4ee7191bae29b4","url":"sb-addons/essentials-measure-5/manager-bundle.js"},{"revision":"a5e0982ef2d9fe9869cf52ab9e3ff83b","url":"sb-addons/essentials-outline-6/manager-bundle.js"},{"revision":"8f854384187d8ec8a933c4e21b5190ba","url":"sb-addons/essentials-toolbars-4/manager-bundle.js"},{"revision":"496287701c3f9ed5bc110c94c1378bb2","url":"sb-addons/essentials-viewport-3/manager-bundle.js"},{"revision":"105ec5c3f4b0d34e375f94af38b61486","url":"sb-addons/interactions-7/manager-bundle.js"},{"revision":"59f84fe6abac40231f124ea1797925e0","url":"sb-common-assets/fonts.css"},{"revision":"d5a12656946a3a6ef33fbd1c25554e0b","url":"sb-manager/chunk-5QAFKPS7.js"},{"revision":"85df1b93bf3b113cba17bab72339986e","url":"sb-manager/chunk-7PRFHFSS.js"},{"revision":"01a24a337628f6363ef456f1375752de","url":"sb-manager/chunk-XE6LDGTE.js"},{"revision":"1e46491cda47c83f3ee767f57860a294","url":"sb-manager/chunk-YDUB7CS6.js"},{"revision":"489cf7704c659334445e89b769d27a71","url":"sb-manager/chunk-ZEU7PDD3.js"},{"revision":"2b95b54a500a39799f602e52c22d1844","url":"sb-manager/formatter-SWP5E3XI-7BGIK6BL.js"},{"revision":"32fe266b75ddb2321c5ce9e66ce8256a","url":"sb-manager/globals-module-info.js"},{"revision":"956b9a811e0a52c504217dce9ece7227","url":"sb-manager/globals.js"},{"revision":"fbc3c0984e4835c47d82a5a5f2050612","url":"sb-manager/index.js"},{"revision":"0f79336c501f39fe10ecc4bde85ac2ab","url":"sb-manager/runtime.js"},{"revision":"e36dcd837e5d62857ef4cc05cad9fef2","url":"sb-manager/syntaxhighlighter-MJWPISIS-JOSCT6CQ.js"},{"revision":"2351027a1653de970303e3a2c000dcc9","url":"sb-manager/WithTooltip-V3YHNWJZ-MXTFSDU5.js"},{"revision":"86b3d481e1b841eb327758800b8d52ff","url":"sb-preview/globals.js"},{"revision":"87115ee19017cdf97b1a974e21c71478","url":"sb-preview/runtime.js"},{"revision":"79a895160a0b81d21f2c3e5f9eb1b466","url":"favicon.ico"},{"revision":"99d0abddddf69f5bb7b66b5b5141418a","url":"pwa-192x192.png"},{"revision":"983e172471017c2407ddc9c406858167","url":"pwa-512x512.png"},{"revision":"0f1fac2709660d260b85e5467f09294d","url":"manifest.webmanifest"}]), ne();
   let a;
   N(
     new E(re("index.html"), {
@@ -1286,4 +1286,3 @@ function oe() {
     })
   ), self.skipWaiting(), oe();
 }
-//# sourceMappingURL=sw.js.map
